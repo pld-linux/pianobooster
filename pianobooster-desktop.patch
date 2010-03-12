@@ -1,0 +1,12 @@
+--- pianobooster-src-0.6.4/src/pianobooster.desktop~	2009-11-28 14:29:45.000000000 +0100
++++ pianobooster-src-0.6.4/src/pianobooster.desktop	2010-03-12 09:50:09.186477755 +0100
+@@ -1,7 +1,9 @@
+ [Desktop Entry]
+ Name=Piano Booster
+ Comment=A MIDI file player that teaches you how to play the piano
++Comment[pl]=Odtwarzacz plików MIDI, który uczy jak grać na pianinie
+ GenericName=Piano Teacher
++GenericName[pl]=Nauka gry na pianinie
+ Exec=pianobooster
+ Icon=pianobooster
+ Terminal=false
