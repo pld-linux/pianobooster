@@ -1,12 +1,12 @@
 Summary:	Piano Teacher
 Summary(pl.UTF-8):	Nauka gry na pianinie
 Name:		pianobooster
-Version:	0.6.4
+Version:	0.6.4b
 Release:	1
 License:	GPL v3+
 Group:		X11/Applications/Games
 Source0:	http://downloads.sourceforge.net/pianobooster/%{name}-src-%{version}.tar.gz
-# Source0-md5:	af1bb513c93ac7b1c8cc919b60146d1c
+# Source0-md5:	4c1c34a4b763e6108aa9668be7890696
 Patch0:		%{name}-desktop.patch
 URL:		http://pianobooster.sourceforge.net/
 BuildRequires:	cmake
