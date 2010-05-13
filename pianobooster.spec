@@ -9,7 +9,15 @@ Source0:	http://downloads.sourceforge.net/pianobooster/%{name}-src-%{version}.ta
 # Source0-md5:	4c1c34a4b763e6108aa9668be7890696
 Patch0:		%{name}-desktop.patch
 URL:		http://pianobooster.sourceforge.net/
+BuildRequires:	QtCore-devel
+BuildRequires:	QtGui-devel
+BuildRequires:	QtOpenGL-devel
+BuildRequires:	QtXml-devel
+BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake
+BuildRequires:	libstdc++-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
