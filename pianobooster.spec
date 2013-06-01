@@ -8,6 +8,7 @@ Group:		X11/Applications/Games
 Source0:	http://downloads.sourceforge.net/pianobooster/%{name}-src-%{version}.tar.gz
 # Source0-md5:	4c1c34a4b763e6108aa9668be7890696
 Patch0:		%{name}-desktop.patch
+Patch1:		%{name}-CMakeLists.patch
 URL:		http://pianobooster.sourceforge.net/
 BuildRequires:	QtCore-devel
 BuildRequires:	QtGui-devel
@@ -36,6 +37,7 @@ na grę użytkownika korzystającego z muzycznej klawiatury midi.
 %prep
 %setup -q -n %{name}-src-%{version}
 %patch0 -p1
+%patch1 -p0
 
 %build
 cd build
