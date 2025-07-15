@@ -36,8 +36,8 @@ na grę użytkownika korzystającego z muzycznej klawiatury midi.
 
 %prep
 %setup -q -n %{name}-src-%{version}
-%patch0 -p1
-%patch1 -p0
+%patch -P0 -p1
+%patch -P1 -p0
 
 %build
 cd build
